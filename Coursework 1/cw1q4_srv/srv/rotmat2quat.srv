@@ -1,0 +1,5 @@
+std_msgs/Float64MultiArray r1
+std_msgs/Float64MultiArray r2
+std_msgs/Float64MultiArray r3
+---
+geometry_msgs/Quaternion q

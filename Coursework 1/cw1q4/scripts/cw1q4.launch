@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Run publisher_node -->
+    <node name="rot_convert_client" pkg="cw1q4" type="cw1q4_req_node.py" output="screen"/>
+
+    <!-- Run subscriber_node -->
+    <node name="rotation_converter" pkg="cw1q4" type="cw1q4_node.py"/>
+
+</launch>
